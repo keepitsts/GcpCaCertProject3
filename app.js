@@ -6,7 +6,12 @@ const path = require('path');
 const app = express();
 // return static file
 app.get('/', (req, res) => {
-  res.status(200).sendFile(path.resolve('index.html'));
+  let prob = Math.random();
+  if (prob >= .5) {
+    res.status(200).sendFile(path.resolve('index.html'));
+  } else {
+    res.status(501).send('Error found').end();
+  }
 });
 
 // Start the server
