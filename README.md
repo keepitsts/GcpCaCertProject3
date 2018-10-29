@@ -22,7 +22,7 @@ Steps
 
 1. Open CloudShell in the GCP console.
 
-2. Run `git clone <https repo url coming>` to clone this repo with the source code to your cloudshell instance.
+2. Run `git clone https://github.com/keepitsts/GcpCaCertProject3.git` to clone this repo with the source code to your cloudshell instance.
 
 3. Make sure to `cd GcpCaCertProject3` to navigate to the correct directory.
 
